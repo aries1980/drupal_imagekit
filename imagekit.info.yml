@@ -1,0 +1,7 @@
+name: ImageKit
+description: Compresses site images using ImageKit.io.
+package: ImageKit
+
+core: 8.x
+type: module
+

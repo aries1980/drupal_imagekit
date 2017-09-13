@@ -1,0 +1,15 @@
+{
+    "name": "drupal/imagekit",
+    "description": "Compresses site images using ImageKit.io.",
+    "type": "drupal-module",
+    "license": "GPL-3.0+",
+    "homepage": "https://drupal.org/project/imagekit",
+    "support": {
+        "issues": "https://github.com/aries1980/drupal_imagekit/issues",
+        "source": "https://github.com/aries1980/drupal_imagekit",
+        "website": "https://imagekit.io"
+    },
+    "require-dev": {
+        "drupal/coder": "~8.2"
+    }
+}
