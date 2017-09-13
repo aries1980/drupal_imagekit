@@ -15,6 +15,6 @@ case "$1" in
     *)
         ln -s $MODULE_DIR $DRUPAL_DIR/modules/$MODULE_NAME
         cd $DRUPAL_DIR
-        ./vendor/bin/phpunit -c ./core/phpunit.xml.dist $MODULE_DIR/tests
+        ./vendor/bin/phpunit --coverage-clover=coverage.xml -c ./core/phpunit.xml.dist $MODULE_DIR/tests
         exit $?
 esac
