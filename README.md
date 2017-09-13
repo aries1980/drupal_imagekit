@@ -1,5 +1,9 @@
 # Drupal module for ImageKit.io
 
+![Travis CI build status](https://img.shields.io/travis/aries1980/drupal_imagekit/8.x-1.x.svg)
+![Codecov code coverage](https://img.shields.io/codecov/c/github/aries1980/drupal_imagekit.svg)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/aries1980/drupal_imagekit/blob/8.x-1.x/LICENSE.txt)
+
 Images make up a critical part of all websites and mobile applications these days. They are the centerpieces of a great product and user experience. Managing your images and delivering the perfect image, tailored and optimized for your user’s device is, therefore, more critical than it has ever been. However, this takes up a lot of development and maintenance time that could have otherwise been used in building your core product. This is where ImageKit can excel.
 
 This module will automatically update all the image URLs in your post so that images are fetched from ImageKit for optimization and faster delivery instead of your web server.
